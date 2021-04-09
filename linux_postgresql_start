@@ -1,0 +1,13 @@
+######## POSTGRESQL — MX Linux #######
+
+Commands used:
+$ sudo apt-get update
+$sudo apt-get install postgresql postgresql-contrib
+$ sudo -i -u postgres
+
+$ postgres          
+OR
+$ sudo -u postgres psql
+
+$ sudo -u postgres createuser –interactive
+$ sudo -u postgres createdb dbname
