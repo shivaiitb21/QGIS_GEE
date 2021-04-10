@@ -11,3 +11,6 @@ $ sudo -u postgres psql
 
 $ sudo -u postgres createuser –interactive
 $ sudo -u postgres createdb dbname
+
+######### INSTALL POSTGIS #################
+sudo apt-get install postgresql-13-postgis-3
